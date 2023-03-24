@@ -15,8 +15,12 @@ module.exports = {
       "cardcolor": "rgba(255, 255, 255, 1)",
       "black": "#000F24",
       "gray": "#2A2A2B",
+      "gray2": "rgb(194, 189, 189)",
       "white": "#ffff",
       "transparent": 'transparent',
+      "blue": 'rgb(7, 7, 177) !important',
+      "yellow": '#FFBE4E',
+      "lightgrey": '#A1A1A1',
 
     },
     fontFamily: {
@@ -32,15 +36,23 @@ module.exports = {
     },
     fontSize: {
       normal: '16px',
-      header: '47px',
+      header: '45px',
+      logo: '40px',
+      md: "10px",
+      lg: '25px',
+      sm: '12px',
     },
     lineHeight: {
       header: '47px',
     },
-    extend: {},
+    extend: {
+      scale: {
+        '-1': '-1'
+      },
+    },
     borderRadius: {
       '4xl': '2rem',
-    }
+    },
   },
   plugins: [],
 }
