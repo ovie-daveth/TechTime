@@ -1,8 +1,8 @@
 import React from 'react'
-import img1 from '../assets/Frame 95.png'
-import img2 from '../assets/Frame 96.png'
+import img1 from '../assets/bella.png'
+import img2 from '../assets/vic.png'
 import img3 from '../assets/Frame 97.png'
-import img4 from '../assets/Frame 98.png'
+import img4 from '../assets/samuel.png'
 import img5 from '../assets/Frame 99.png'
 
 const Gallery = () => {

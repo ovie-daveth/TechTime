@@ -21,6 +21,9 @@ module.exports = {
       "blue": 'rgb(7, 7, 177) !important',
       "yellow": '#FFBE4E',
       "lightgrey": '#A1A1A1',
+      'star': '#F6B435',
+      'genrebgcolor': 'rgba(30, 93, 206, 0.2)',
+      'genrecolor': 'rgba(30, 93, 206, 1)',
 
     },
     fontFamily: {
