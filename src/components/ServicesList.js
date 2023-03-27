@@ -34,10 +34,10 @@ const ServicesList = () => {
   ]
 
   return (
-    <ul className=' grid grid-cols-2 gap-y-4'>
+    <ul className=' grid grid-cols-2 gap-5'>
         {
           service.map((item) => (
-            <li className='hover:scale-90 transition-transform ease-in-out duration-500 flex items-center gap-4 bg-white md:py-4 py-2 px-1 md:px-5 rounded-[5px] text-[12px] md:text-[14px] font-bold w-[220px]' key={item.id}>
+            <li className='hover:scale-90 transition-transform ease-in-out duration-500 flex items-center gap-2 bg-white md:py-4 py-2 px-1 md:px-3 rounded-[5px] text-[12px] md:text-[14px] font-semibold w-[190px]' key={item.id}>
             <span className=' p-2' style={{backgroundColor:item.color}} > <img src={item.img} alt="" /> </span>
             <p>{item.title}</p>
           </li>

@@ -36,15 +36,15 @@ const AboutList = () => {
         },
     ]
   return (
-    <ul className='grid grid-cols-2 m-auto gap-x-12 gap-y-6 mt-6'>
+    <ul className='grid grid-cols-2 m-auto gap-x-6 md:gap-x-16 gap-y-6 mt-6'>
         {
             aboutlist.map((list) => (
-                <li key={list.id} className='flex flex-col items-start text-left gap-2 px-4 py-3 bg-white shadow-md w-[240px] c font-satoshiursor-pointer hover:scale-95 transition-transform ease-in-out'>
+                <li key={list.id} className='flex flex-col items-start text-left gap-2 px-2 md:px-4 py-3 bg-white shadow-md w-[190px] md:w-[260px] font-satoshi cursor-pointer hover:scale-95 transition-transform ease-in-out'>
                     <span style={{backgroundColor: list.color}}
                     className='p-1 text-white'
                     >{list.icon}</span>
                     <h1 className='font-bold'>{list.title}</h1>
-                    <p className='text-[14px] md:text-[16px] text-lightgrey'>{list.desc}</p>
+                    <p className='text-[12px] md:text-[16px] text-lightgrey'>{list.desc}</p>
                 </li>
             ))
         }

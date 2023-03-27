@@ -37,9 +37,9 @@ const Home = () => {
                   <h3 className='flex flex-col items-center font-Clash font-semibold lg:text-normal text-[14px]'>255K+<span className='text-sm font-extralight -mt-1'>Previews</span></h3>
                 </div>
             </div>
-            <div className="block relative">
+            <div className="block relative ml-5 md:ml-0 w-[300px] md:w-[unset]">
               <img src={hero} alt="hero" 
-              className=' md:w-[400px] w-[300px] absoluet top-0 left-[63.51px]'
+              className=' md:w-[400px] w-[100%] absoluet top-0 left-[63.51px]'
               />
               <div className="block absolute md:bottom-32 md:top-[unset] -top-16 md:-left-24 -right-8 md:w-[80px] w-[60px] rotate-45 md:rotate-0"><img src={spiral} alt="" /></div>
               <div className="block absolute top-3 -left-10 md:w-[140px] w-[100px]"><img src={bulb} alt="" /></div>
