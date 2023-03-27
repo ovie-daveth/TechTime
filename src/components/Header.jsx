@@ -70,7 +70,7 @@ const Header = () => {
            <a href={menuItem.path}> {menuItem.name}</a>
           </li>
         ))}
-        <button className='bg-white text-background px-8 py-2 font-bold rounded-[5px] ml-3'>Enrol Now</button>
+        <button className='bg-white text-background px-8 py-2 font-bold rounded-[5px] ml-3 hover:bg-transparent border hover:border-white hover:text-white'>Enrol Now</button>
       </ul>
       <div className="z-0 block text-[35px] md:hidden text-white active:text-gray2">
         <MdMenu onClick={menuShow} />
