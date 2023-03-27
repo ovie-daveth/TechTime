@@ -18,7 +18,7 @@ import Socials from '../components/Socials'
 
 const Home = () => {
   return (
-    <main className='bg-background  h-full text-white'>
+    <main id="home" className='bg-background  h-full text-white'>
         <Header />
         <div className=' flex items-center lg:flex-row flex-col   justify-between lg:px-28 px-5 text-center lg:text-left gap-16 lg:gap-0 mt-10'>
             <div className="flex flex-col gap-5 relative lg:w-[44%] w-[100%]">

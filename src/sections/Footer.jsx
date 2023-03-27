@@ -19,11 +19,11 @@ const Footer = () => {
       <div>
         <h1 className='font-bold text-[19px] font-satoshi mb-5'>Useful Links</h1>
         <ul className='text-[15px] font-extralight font-satoshi flex flex-col gap-3'>
-          <li className='cursor-pointer hover:text-lightgrey transition-colors ease-in-out duration-300 inline'>Home</li>
-          <li className='cursor-pointer hover:text-lightgrey transition-colors ease-in-out duration-300 inline'>About Us</li>
-          <li className='cursor-pointer hover:text-lightgrey transition-colors ease-in-out duration-300 inline'>Our Courses</li>
-          <li className='cursor-pointer hover:text-lightgrey transition-colors ease-in-out duration-300 inline'>Testimonials</li>
-          <li className='cursor-pointer hover:text-lightgrey transition-colors ease-in-out duration-300 inline'>Our Community</li>
+          <li className='cursor-pointer hover:text-lightgrey transition-colors ease-in-out duration-300 inline'><a href="#home"> Home</a></li>
+          <li className='cursor-pointer hover:text-lightgrey transition-colors ease-in-out duration-300 inline'><a href="#about"> About Us</a></li>
+          <li className='cursor-pointer hover:text-lightgrey transition-colors ease-in-out duration-300 inline'><a href="#course"> Our Courses</a></li>
+          <li className='cursor-pointer hover:text-lightgrey transition-colors ease-in-out duration-300 inline'><a href="#testimony">Testimonials</a> </li>
+          <li className='cursor-pointer hover:text-lightgrey transition-colors ease-in-out duration-300 inline'><a href="#community">Our Community</a> </li>
         </ul>
       </div>
       <div>

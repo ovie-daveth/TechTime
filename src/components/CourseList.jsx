@@ -1,11 +1,11 @@
 import React from 'react'
 import {FaStar} from 'react-icons/fa'
 import {BiTimeFive} from 'react-icons/bi'
-import { courses } from '../Data'
+
 
 import book from '../assets/menu_book.png'
 
-const CourseList = () => {
+const CourseList = ({courses}) => {
   return (
     <div className="grid grid-cols-2 md:grid-cols-3 gap-x-3 gap-y-8">
     {

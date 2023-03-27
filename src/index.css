@@ -9,6 +9,9 @@ body{
     overflow-x: hidden;
     background-color: rgba(248, 249, 252, 1);
 }
+html{
+    scroll-behavior: smooth;
+}
 .context{
     max-height: 0;
     overflow: hidden;

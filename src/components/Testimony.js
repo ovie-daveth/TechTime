@@ -29,13 +29,13 @@ const Testimony = () => {
    scrollbar={{ draggable: true }}
    onSwiper={(swiper) => console.log(swiper)}
    onSlideChange={() => console.log('slide change')}
-    className=' flex items-center gap-1 overflow-x-hidden font-satoshi cursor-pointer mb-20 bg-section'>
-        {
+    className=' flex items-center gap-1 overflow-x-hidden font-satoshi cursor-pointer mb-20 bg-section'>        
+    {
             test.map((test) => (
-                <SwiperSlide className=' flex flex-col items-start text-left bg-white rounded-[10px] py-4 px-3 shadow-2xl' key={test.id}>
+                <SwiperSlide className=' flex flex-col items-start text-left bg-white rounded-[10px] py-4 px-3 shadow-xl' key={test.id}>
                 <p className='w-full capitalize text-sm font-satoshi text-justify'>{test.test}</p>
                 <div className='flex items-center gap-3 mt-6'>
-                  <img src={test.img} alt="" />
+                  <img src={test.img} alt="" className='w-12' />
                   <p className='flex flex-col text-sm font-bold '>
                       <span>{test.name}</span>
                       <span>{test.proffession}</span>

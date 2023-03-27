@@ -14,7 +14,7 @@ import bella from '../assets/adam.png'
 
 const Community = () => {
   return (
-    <div className='bg-background text-center text-white font-bold py-12 '>
+    <div id="community" className='bg-background text-center text-white font-bold py-12 '>
       <small className='uppercase px-5 md:px-10'>join our community</small>
       <h1 className='text-[24px] md:text-[28px] capitalize px-5 md:px-10'>are you  ready to connect with the future talent of the tech world</h1>
       <small className='capitalize text-md px-5 md:px-10'>meet up with other techstars and grow together</small>

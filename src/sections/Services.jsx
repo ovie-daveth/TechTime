@@ -10,7 +10,7 @@ import grayring from '../assets/grayring.png'
 
 const Services = () => {
   return (
-    <div className=' bg-section w-full flex items-center justify-between lg:flex-row flex-col lg:px-28 px-4 relative pt-8'>
+    <div id="service" className=' bg-section w-full flex items-center justify-between lg:flex-row flex-col lg:px-28 px-4 relative pt-8'>
         <img src={crown} alt="crown" 
         className='absolute lg:top-5 top-3 lg:left-[85px] md:left-4 -left-1 w-[40px] lg-w-[unset] '
         />
