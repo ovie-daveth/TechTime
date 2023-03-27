@@ -7,4 +7,19 @@
 
 body{
     overflow-x: hidden;
+    background-color: rgba(248, 249, 252, 1);
+}
+.context{
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+    background-color: white;
+    margin-bottom: 15px ;
+}
+.show{
+    max-height: 9999px;
+    height: auto;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+    background-color: white;
+    margin-bottom: 15px ;
 }

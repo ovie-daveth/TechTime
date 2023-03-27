@@ -24,6 +24,7 @@ module.exports = {
       'star': '#F6B435',
       'genrebgcolor': 'rgba(30, 93, 206, 0.2)',
       'genrecolor': 'rgba(30, 93, 206, 1)',
+      'footer': '#000F24',
 
     },
     fontFamily: {
