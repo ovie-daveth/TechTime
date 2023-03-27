@@ -11,7 +11,11 @@ const CourseList = ({courses}) => {
     {
         courses.map((course)=>(
             <div className="flex flex-col gap-3" key={course.id}> 
-                <img src={course.img} alt="" />
+                <div className="block overflow-hidden group">
+                    <img src={course.img} alt="" 
+                    className='group-hover:scale-110 transition-transform ease-in-out'
+                    />
+                </div>
                 <div className="flex flex-col gap-2 px-1 font-Clash">
                     <div className="flex justify-between text-md font-bold ">
                         <span className=' capitalize bg-genrebgcolor px-1 md:px-2 text-genrecolor rounded-[100px] text-[8px] md:text-[12px]'>{course.genre}</span>
