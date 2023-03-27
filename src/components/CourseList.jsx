@@ -7,7 +7,7 @@ import book from '../assets/menu_book.png'
 
 const CourseList = () => {
   return (
-    <div className="grid grid-cols-2 gap-x-3 gap-y-8">
+    <div className="grid grid-cols-2 md:grid-cols-3 gap-x-3 gap-y-8">
     {
         courses.map((course)=>(
             <div className="flex flex-col gap-3" key={course.id}> 

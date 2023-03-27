@@ -16,7 +16,7 @@ const Services = () => {
         />
       <div className="flex flex-col md:gap-5 gap-3 lg:w-[45%] text-center lg:text-left">
         <h1 className='md:text-header text-[24px] font-Clash md:leading-header leading-[35px] tracking-tighter font-extrabold'>High quality video, audio & live classes</h1>
-        <small className=' text-lightgrey lg:w-[90%] w-full text-[12px]'>high-defination video is video of higher resolution and quality than standard definition. while there’s no standard meaning for high definition, generally any standard video image</small>
+        <small className=' text-lightgrey lg:w-[90%] w-full text-[12px]'>High-defination video is video of higher resolution and quality than standard definition. while there’s no standard meaning for high definition, generally any standard video image</small>
         <button className='bg-background text-white w-[38%] font-semibold md:px-5 px-3 py-2  md:text-normal text-[14px] hover:bg-white hover:text-background transition-all ease-in-out cursor-pointer border border-transparent hover:border-background m-auto lg:m-[unset]'>View Courses</button>
        <div className="flex justify-center items-center mt-3">
         <ServicesList />

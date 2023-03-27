@@ -45,7 +45,7 @@ export const courses = [
     {
         id: 3,
         img: html,
-        genre: 'design',
+        genre: 'marketting',
         title: 'Introduction to User research in UX Design',
         time: '23hrs 50min',
         lessons: '15',
@@ -58,7 +58,7 @@ export const courses = [
     {
         id: 4,
         img: javascript,
-        genre: 'design',
+        genre: 'marketting',
         title: 'Introduction to User research in UX Design',
         time: '23hrs 50min',
         lessons: '15',
@@ -71,7 +71,7 @@ export const courses = [
     {
         id: 5,
         img: outroom,
-        genre: 'design',
+        genre: 'development',
         title: 'Introduction to User research in UX Design',
         time: '23hrs 50min',
         lessons: '15',
@@ -84,7 +84,7 @@ export const courses = [
     {
         id: 6,
         img: analysis,
-        genre: 'design',
+        genre: 'development',
         title: 'Introduction to User research in UX Design',
         time: '23hrs 50min',
         lessons: '15',
