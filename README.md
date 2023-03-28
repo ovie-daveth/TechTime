@@ -37,7 +37,8 @@ To run the app, follow these steps:
 
 1. Run the following command to start a Docker container:
 
-        docker run -it -p 3000:3000 react-app
+        docker run --name techtime_c -p 3000:3000 -d techtime
+        
 This will start a Docker container running the app and map port 3000 in the container to port 3000 on your local machine.
 
 2. Open your web browser and navigate to http://localhost:3000. You should see the app running!
