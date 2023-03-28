@@ -47,7 +47,7 @@ Stopping the App
 To stop the app, simply press CTRL+C in your terminal to stop the Docker container.
 
 ### Conclusion
-That's it! You've successfully built and run a React app using Docker. Feel free to modify the app and experiment with different Docker configurations to see how it affects the app's behavior.
+That's it!!! So, the app can run and modify as see fit
 
 
 
