@@ -4,7 +4,7 @@ import {BsFacebook, BsTwitter, BsYoutube, BsInstagram, BsDiscord} from 'react-ic
 
 const Footer = () => {
   return (
-    <div className='md:-32 md:px-20 py-12 px-4 bg-footer mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-6 gap-12 text-white'>
+    <div className='md:-32 md:px-20 py-28 pb-52 px-4 bg-footer mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-6 gap-12 text-white'>
       <div className='w-[80%]'>
         <h1 className=' font-Tech text-lg text-white capitalize'>techtime</h1>
         <small className='my-2 mb-3 capitalize text-[12px]'>reach out to us on any of our social media networks</small>

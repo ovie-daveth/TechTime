@@ -54,8 +54,8 @@ const Header = () => {
 
 
   return (
-    <div className={`flex justify-between items-center lg:px-20 py-5 pt-10 px-5 bg-background z-50 relative 
-    ${scroll ? " sticky top-0 left-0 w-full" : ""}}`}>
+    <div className={`flex justify-between items-center lg:px-20  px-5 bg-background z-50 relative py-3
+    ${scroll ? " sticky top-0 left-0 w-full" : "py-5 pt-10"}}`}>
       <div className="block font-Tech lg:text-logo text-lg text-white">TechTime</div>
       <ul className={` items-center font-satoshi font-bold gap-6 text-normal md:text-gray2 flex md:flex-row flex-col md:relative absolute top-20 right-2 md:top-[unset] md:right-[unset] md:bg-transparent bg-white text-background p-4 md:p-[unset] rounded-[5px] transition-tranform ease-in-out duration-500 ${ !showMenu ? ' -translate-y-[150%] -z-10 md:translate-y-[unset]' : "translate-y-0"} -z-10 `}>
         {menuItems.map((menuItem) => (
