@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from '../components/Header'
 import Gallery from '../components/Gallery'
 import hero from '../assets/HERO IMAGEE.png'
 import bulb from '../assets/Induction-Hub-Artwork_Admin-and-IT 1.png'
@@ -18,9 +17,8 @@ import Socials from '../components/Socials'
 
 const Home = () => {
   return (
-    <main id="home" className='bg-background  h-full text-white'>
-        <Header />
-        <div className=' flex items-center lg:flex-row flex-col   justify-between lg:px-28 px-5 text-center lg:text-left gap-16 lg:gap-0 mt-10'>
+    <main id="home" className='bg-background text-white'>
+        <div className=' flex items-center lg:flex-row flex-col   justify-between lg:px-28 px-5 text-center lg:text-left gap-16 lg:gap-0 -mt-1 pt-6'>
             <div className="flex flex-col gap-5 relative lg:w-[44%] w-[100%]">
                 <div className="block absolute -top-[4.4rem] right-10">  <GoPrimitiveDot  className=' text-yellow' />
                 </div>
@@ -38,7 +36,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="block relative ml-5 md:ml-0 w-[300px] md:w-[unset]">
-              <img src={hero} alt="hero" 
+                <img src={hero} alt="hero" 
               className=' md:w-[400px] w-[100%] absoluet top-0 left-[63.51px]'
               />
               <div className="block absolute md:bottom-32 md:top-[unset] -top-16 md:-left-24 -right-8 md:w-[80px] w-[60px] rotate-45 md:rotate-0"><img src={spiral} alt="" /></div>

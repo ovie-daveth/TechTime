@@ -27,7 +27,7 @@ const Footer = () => {
         </ul>
       </div>
       <div>
-      <h1 className='font-bold text-[19px] font-satoshi mb-5'>Community</h1>
+        <h1 className='font-bold text-[19px] font-satoshi mb-5'>Community</h1>
         <ul className='text-[15px] font-extralight font-satoshi flex flex-col gap-3'>
           <li className='cursor-pointer hover:text-lightgrey transition-colors ease-in-out duration-300'>Help Centers</li>
           <li className='cursor-pointer hover:text-lightgrey transition-colors ease-in-out duration-300'>Patners</li>
@@ -37,11 +37,11 @@ const Footer = () => {
         </ul>
       </div>
       <div>
-      <h1 className='font-bold text-[19px] font-satoshi mb-5'>Subscribe Us</h1>
-      <div className="flex relative">
-      <input type="search" id="search" placeholder='NPI123@gamil.com' className='w-full bg-gray border border-background px-2 py-1 text-light-background placeholder:text-lightgrey placeholder:text-[15px] text-[15px] focus:outline-none tracking-wider' />
-      <label htmlFor="search" className='bg-background flex justify-between items-center px-4 py-[4.3px] absolute right-0'>Search</label>
-      </div>
+        <h1 className='font-bold text-[19px] font-satoshi mb-5'>Subscribe Us</h1>
+        <div className="flex relative">
+        <input type="search" id="search" placeholder='NPI123@gamil.com' className='w-full bg-gray border border-background px-2 py-1 text-light-background placeholder:text-lightgrey placeholder:text-[15px] text-[15px] focus:outline-none tracking-wider' />
+        <label htmlFor="search" className='bg-background flex justify-between items-center px-4 py-[4.3px] absolute right-0'>Search</label>
+        </div>
       </div>
     </div>
   )

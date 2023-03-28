@@ -33,7 +33,7 @@ const Testimony = () => {
     {
             test.map((test) => (
                 <SwiperSlide className=' flex flex-col items-start text-left bg-white rounded-[10px] py-4 px-3 shadow-xl' key={test.id}>
-                <p className='w-full capitalize text-sm font-satoshi text-justify'>{test.test}</p>
+                <p className='w-full text-sm font-satoshi text-justify text-lightgrey'>{test.test}</p>
                 <div className='flex items-center gap-3 mt-6'>
                   <img src={test.img} alt="" className='w-12' />
                   <p className='flex flex-col text-sm font-bold '>

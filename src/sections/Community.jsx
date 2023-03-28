@@ -18,7 +18,7 @@ const Community = () => {
       <small className='uppercase px-5 md:px-10'>join our community</small>
       <h1 className='text-[24px] md:text-[28px] capitalize px-5 md:px-10'>are you  ready to connect with the future talent of the tech world</h1>
       <small className='capitalize text-md px-5 md:px-10'>meet up with other techstars and grow together</small>
-     <div className="block relative m-auto md:w-[800px]">
+      <div className="block relative m-auto md:w-[800px]">
         <img src={map} alt="" className='md:w-[100%]' />
         <img src={jes} alt="" className='absolute top-12 md:top-24 left-4 md:left-10 w-7 md:w-12'/>
         <img src={Ellipse} alt="" className='absolute top-20 md:top-[50%] border border-white bg-gray2 rounded-[100px] w-7 md:w-12 left-20 md:left-52' />

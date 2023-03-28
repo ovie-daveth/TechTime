@@ -1,4 +1,5 @@
 import React from 'react'
+import Header from './components/Header'
 import About from './sections/About'
 import Community from './sections/Community'
 import Courses from './sections/Courses'
@@ -11,6 +12,7 @@ import FAQ from './sections/FAQ'
 const App = () => {
   return (
     <>
+     <Header />
     <Home />
     <Services />
     <About />

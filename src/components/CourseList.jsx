@@ -24,7 +24,7 @@ const CourseList = ({courses}) => {
                         /> ({course.ratingpercent})</span>
                     </div>
                     <div className="block">
-                        <h1 className='font-bold text-[11px] md:text-[16px] capitalize'>{course.title}</h1>
+                        <h1 className='font-bold text-[11px] md:text-[16px] capitalize hover:text-lightgray'>{course.title}</h1>
                     </div>
                     <div className="flex items-center justify-between text-[8px] md:text-[12px] font-bold text-lightgrey">
                         <span className='flex items-center gap-1 md:gap-2 '><BiTimeFive className='text-[10px] md:w-[16px]'/>  {course.time}</span>
